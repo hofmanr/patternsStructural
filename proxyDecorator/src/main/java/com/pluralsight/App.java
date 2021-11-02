@@ -9,6 +9,7 @@ import jakarta.inject.Inject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// see https://docs.jboss.org/weld/reference/3.0.0.Final/en-US/html_single/#_enabling_decorators
 public class App {
     private static Logger LOGGER = LoggerFactory.getLogger(App.class);
 
