@@ -12,5 +12,10 @@ public class App
         System.out.println(expensiveObject.getInfo("EXPENSIVE"));
         System.out.println(expensiveObject.getInfo("EXPENSIVE"));
         System.out.println(expensiveObject.getInfo("NOT SO EXPENSIVE"));
+
+        // or with a fixed implementation
+        ExpensiveObject expensiveObject2 = new ExpensiveObjectProxy();
+        System.out.println(expensiveObject2.getInfo("EXPENSIVE2"));
+        System.out.println(expensiveObject2.getInfo("EXPENSIVE2"));
     }
 }

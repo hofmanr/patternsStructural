@@ -7,6 +7,10 @@ public class ExpensiveObjectProxy implements ExpensiveObject {
     private ExpensiveObject expensiveObject;
     private Map<String, String> cache = new HashMap<>();
 
+    public ExpensiveObjectProxy() {
+        expensiveObject = new ExpensiveObjectImpl();
+    }
+
     public ExpensiveObjectProxy(ExpensiveObject object) {
         this.expensiveObject = object;
     }
