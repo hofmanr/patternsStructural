@@ -5,6 +5,7 @@ The main motive behind using this pattern is to convert an existing interface in
 
 The adapter does not add functionality. The decorator is designed for adding functionality.
 ![diagram](diagram.jpg)
+
 The Adapter could also be thought of as a "wrapper".
 ![diagram](wrapper.jpg)
 
